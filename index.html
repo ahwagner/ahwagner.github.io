@@ -50,9 +50,10 @@
 				<div class="inner">
 					<p><img src="images/MGI.jpg" width="25%"/></p>
 					<br>
-					<p>Welcome to the personal homepage of Alex Wagner. I'm currently a postdoctoral research associate
-					with <a href="http://genome.wustl.edu/people/individual/obi-griffith/" target="_blank">Obi Griffith</a>
-					at Washington University School of Medicine in St. Louis, MO, USA.</p>
+					<p>Welcome to the personal homepage of Alex Wagner. I'm currently a postdoctoral research fellow
+					at the Washington University School of Medicine in St. Louis, MO, USA. I'm researching methods
+                    that enable the analysis and understanding of genomic variants and their clinical implications for
+                    cancers.</p>
            	  		<br>
 					<ul class="actions">
 						<li><a href="#research" class="button big scrolly">Learn More</a></li>
@@ -69,17 +70,24 @@
 				<div class="container">
 					<!-- Content -->
 						<section id="content">
-						<h3>Current Work</h3>
-						<p>My ongoing interest is in the development of computational tools to aid in the collaborative visualization, interpretation, and discovery of clinically relevant genomic events to aid precision medicine efforts in cancer.</p>
-						<p>I'm currently working as a postdoctoral research associate with
+						<h3>Current Research</h3>
+						<p>My ongoing research interest is the development of computational tools to aid collaborative visualization, interpretation, and discovery of clinically relevant genomic events in patient cancers.</p>
+						<p>I'm currently working as an NCI postdoctoral research fellow with
 						 the <a href="http://genome.wustl.edu/people/groups/detail/griffith-lab/" target="_blank">Griffith lab</a> at the McDonnell Genome Institute of Washington University in St. Louis, where we are investigating the genomic architecture of cancers.  </p>
-						<p>In one project, we are improving the Drug-Gene Interaction Database (<a href="http://www.dgidb.org">DGIdb</a>), a web resource that consolidates disparate data sources describing drug-gene interactions and gene druggability. It provides an intuitive graphical user interface and a documented application programming interface (API) for querying these data. DGIdb was assembled through an extensive manual curation effort, reflecting the combined information of twenty-seven sources. For DGIdb 2.0, substantial updates have been made to increase content and improve its usefulness as a resource for mining clinically actionable drug targets. We have demonstrated the utility of DGIdb in a precision medicine workflow in a patient with acute lymphocytic leukemia.</p>
-						<p>In another project, we are investigating the genomics of relapsed and chemo-resistant small cell lung cancers (SCLCs), using a combination of exome and transcriptome sequencing to profile the primary and relapsed tumors of 17 patients with SCLC. This work has led to identification of key genetic alterations that appear to be specific or strongly enriched in chemo-resistant SCLCs (manuscript under review).</p>
+						<p>In a set of related projects, I co-developed multiple open-source, API accessible webtools enabling precision medicine. Among these tools are:
+							<ul>
+							<li>The Drug-Gene Interaction Database (<a href="http://www.dgidb.org">DGIdb</a>) - consolidates disparate data sources describing drug-gene interactions and gene druggability. </li>
+							<li>The Clinical Interpretations of Variants in Cancer Database (<a href="http://www.civicdb.org">CIViC</a>) - community-sourced curation tool for clinical interpretations of cancer variants.</li>
+                            <li>The Database of Curated Mutations in cancer (<a href="http://www.docm.info">DoCM</a>) - an expert-curated list of biologically-relevant mutations in cancer.</li>
+						    </ul>
+                            I also co-developed software for the visualization of genomic features using R (<a href="https://bioconductor.org/packages/release/bioc/html/GenVisR.html">GenVisR</a>).
+						</p>
+						<p>In another project, I am investigating the genomics of relapsed and chemo-resistant small cell lung cancers (SCLCs), using a combination of exome and transcriptome sequencing to profile the primary and relapsed tumors of 30 patients with SCLC. This work has led to identification of key genetic alterations that appear to be specific or strongly enriched in chemo-resistant SCLCs (manuscript in progress).</p>
 						<br />
 						
-						<h3>Previous Work</h3>
-						<a name="PhD" />
-						<p>My Ph.D. work was under the mentorship of <a href="http://www.engineering.uiowa.edu/bme/faculty-staff/terry-braun" target=“_blank”>Terry Braun</a> at the University of Iowa’s Coordinated Laboratory for Computational Genomics. While there, I studied <a href="http://ir.uiowa.edu/cgi/viewcontent.cgi?article=5520&context=etd" target="_blank">computational methods for identification of disease-associated variations in exome sequencing</a>. I also developed a method for predicting genetic variants associated with heritable retinal dystrophies, using a novel machine learning strategy (<a href="http://onlinelibrary.wiley.com/doi/10.1002/humu.22317/full">PULP</a>).</p>
+						<h3>Doctoral Research</h3>
+                            <a name="PhD"></a>
+						<p>My Ph.D. work was under the mentorship of <a href="https://www.engineering.uiowa.edu/faculty-staff/terry-braun" target=“_blank”>Terry Braun</a> at the University of Iowa’s Coordinated Laboratory for Computational Genomics. While there, I studied <a href="http://ir.uiowa.edu/cgi/viewcontent.cgi?article=5520&context=etd" target="_blank">computational methods for identification of disease-associated variations in exome sequencing</a>. I also developed a method for predicting genetic variants associated with heritable retinal dystrophies, using a novel machine learning strategy (<a href="http://onlinelibrary.wiley.com/doi/10.1002/humu.22317/full">PULP</a>).</p>
             			<p>Another focus of my work was on improving the accuracy of the CLCG variant detection pipeline. Working with <a href="http://www.medicine.uiowa.edu/dept_primary_apr.aspx?appointment=Ophthalmology%20and%20Visual%20Sciences&id=stonee" target="_blank">Dr. Edwin Stone</a> at the Wynn Institute for Vision Research, we developed a technique for identifying synonymous and intronic variants that were associated with <a href="http://hmg.oxfordjournals.org/content/22/25/5136.full">Stargardt’s Disease</a> through integrating patient exome data with control (reference) transcriptome sequence. We also developed a model for improving the specificity of detected variants from our exome sequencing experiments.</p>
            				<p>Finally, I developed web resources to help characterize healthy and diseased retinal tissue. The ocular tissue database (<a href=“http://genome.uiowa.edu/otdb/”>OTDB</a>) provides a look at expression of 10 tissues of the human eye, while the TRIPOD web tool (manuscript in preparation) provides an interface for the study and evaluation of phenotypic and genotypic associations in rare, heritable retinal dystrophies.</p>
 						</section>
@@ -90,21 +98,23 @@
 		<!-- Publications -->
 			<section id="publications" class="wrapper style1">
 				<header class="major">
-					<h2>Publications</h2>
+					<h2>Selected Publications</h2>
 				</header>
 				<div class="container">
 					<!-- Content -->
 						<section id="content">
-						<p>Click <a href="https://scholar.google.com/citations?user=cwG4QRAAAAAJ&hl=en" target="_blank">here</a> to search for up-to-date publications on Google Scholar.</p>
-						<p><b>AH Wagner</b>, AC Coffman, BJ Ainscough, NC Spies, ZL Skidmore, KM Campbell, K Krysiak, D Pan, JF McMichael, JM Eldred, JR Walker, RK Wilson, ER Mardis, M Griffith*, OL Griffith* (2015) "DGIdb 2.0: mining clinically relevant drug–gene interactions". Nucleic acids research. doi: 10.1093/nar/gkv1165.</p>
-           				<p>SS Whitmore, <b>AH Wagner</b>, AP DeLuca, AV Drack, EM Stone, BA Tucker, S Zeng, TA Braun, RF Mullins, TE Scheetz (2014) “Transcriptomic analysis across nasal, temporal, and macular regions of human neural retina and RPE/choroid by RNA-Seq”. Experimental Eye Research. doi:10.1016/j.exer.2014.11.001</p>
-            			<p>TP Sharma, CM McDowell, Y Liu, <b>AH Wagner</b>, D Thole, BP Faga, RJ Workinger, TA Braun, AF Clark (2014) “Optic nerve crush induces spatial and temporal gene expression patterns in retina and optic nerve of BALB/cJ mice”. Molecular Neurodegeneration. doi: 10.1186/1750-1326-9-14</p>
-            			<p>TA Braun, RF Mullins, <b>AH Wagner</b>, J Andorf, R Johnston, B Bakall, AP DeLuca, G Fisherman, R Weleber, A Cideciyan, S Jacobson, V Sheffield, B Tucker, EM Stone (2013) “Non-exomic and synonymous variants in ABCA4 are an important cause of Stargardt disease”. Human Molecular Genetics. doi: 10.1093/hmg/ddt367
+						<p>This is a list of publications most relevant to my doctoral and postdoctoral research objectives. Click <a href="https://scholar.google.com/citations?user=cwG4QRAAAAAJ&hl=en" target="_blank">here</a> for a complete bibliography on Google Scholar.</p>
+                            <p>M Griffith, NC Spies, K Krysiak, JF McMichael, AC Coffman, AM Danos, BJ Ainscough, CA Ramirez, DT Rieke, L Kujan, EK Barnell, <b>AH Wagner</b>, et al. (2017) "CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer". <i>Nature Genetics</i>. doi: 10.1038/ng.3774</p>
+                            <p>BJ Ainscough, M Griffith, AC Coffman, <b>AH Wagner</b>, J Kunisaki, MNK Choudhary, JF McMichael, RS Fulton, RK Wilson, OL Griffith, ER Mardis (2016) "DoCM: a database of curated mutations in cancer". <i>Nature Methods</i>. doi: 10.1038/nmeth.4000</p>
+                            <p>ZL Skidmore, <b>AH Wagner</b>, R Lesurf, KM Campbell, JKunisaki, OL Griffith, M Griffith (2016) "GenVisR: Genomic Visualizations in R". <i>Bioinformatics</i>. doi: 10.1093/bioinformatics/btw325</p>
+                            <p>M Griffith, OL Griffith, K Krysiak, ZL Skidmore, MJ Christopher, JM Klco, A Ramu, TL Lamprecht, <b>AH Wagner</b>, KM Campbell, R Lesurf, J Hundal, J Zhang, NC Spies, BJ Ainscough, DE Larson, SE Heath, C Fronick, S O'Laughlin, RS Fulton, V Magrini, S McGrath, SM Smith, CA Miller, CA Maher (2016) "Comprehensive genomic analysis reveals FLT3 activation and a therapeutic strategy for a patient with relapsed adult B-lymphoblastic leukemia". <i>Experimental Hematology</i>. doi: 10.1016/j.exphem.2016.04.011</p>
+                            <p><b>AH Wagner</b>, AC Coffman, BJ Ainscough, NC Spies, ZL Skidmore, KM Campbell, K Krysiak, D Pan, JF McMichael, JM Eldred, JR Walker, RK Wilson, ER Mardis, M Griffith*, OL Griffith* (2015) "DGIdb 2.0: mining clinically relevant drug–gene interactions". <i>Nucleic acids research</i>. doi: 10.1093/nar/gkv1165.</p>
+                            <p>SS Whitmore, <b>AH Wagner</b>, AP DeLuca, AV Drack, EM Stone, BA Tucker, S Zeng, TA Braun, RF Mullins, TE Scheetz (2014) “Transcriptomic analysis across nasal, temporal, and macular regions of human neural retina and RPE/choroid by RNA-Seq”. <i>Experimental Eye Research</i>. doi:10.1016/j.exer.2014.11.001</p>
+                            <p>TA Braun, RF Mullins, <b>AH Wagner</b>, J Andorf, R Johnston, B Bakall, AP DeLuca, G Fisherman, R Weleber, A Cideciyan, S Jacobson, V Sheffield, B Tucker, EM Stone (2013) “Non-exomic and synonymous variants in ABCA4 are an important cause of Stargardt disease”. <i>Human Molecular Genetics</i>. doi: 10.1093/hmg/ddt367
 </p>
-            			<p><b>AH Wagner</b>, KR Taylor, AP DeLuca, TL Casavant, RF Mullins, EM Stone, TE Scheetz, TA Braun (2013), “Prioritization of Retinal Disease Genes: An Integrative Approach.” Human Mutation. doi: 10.1002/humu.22317</p>
-						<p><b>AH Wagner</b>, VN Anand, W Wang, JE Chatterton, D Sun, AR Shepard, N Jacobson, L Pang, AP DeLuca, TL Casavant, TE Scheetz, RF Mullins, TA Braun, AF Clark (2013) “Exon-level expression profiling of ocular tissues”. Experimental Eye Research. doi: 10.1016/j.exer.2013.03.004
+                            <p><b>AH Wagner</b>, KR Taylor, AP DeLuca, TL Casavant, RF Mullins, EM Stone, TE Scheetz, TA Braun (2013), “Prioritization of Retinal Disease Genes: An Integrative Approach.” <i>Human Mutation</i>. doi: 10.1002/humu.22317</p>
+                            <p><b>AH Wagner</b>, VN Anand, W Wang, JE Chatterton, D Sun, AR Shepard, N Jacobson, L Pang, AP DeLuca, TL Casavant, TE Scheetz, RF Mullins, TA Braun, AF Clark (2013) “Exon-level expression profiling of ocular tissues”. <i>Experimental Eye Research</i>. doi: 10.1016/j.exer.2013.03.004
 </p>
-						<p>AP DeLuca, <b>AH Wagner</b>, KR Taylor, B Faga, D Thole, VC Sheffield, EM Stone, TL Casavant, TE Scheetz, TA Braun (December 2011) “Sequencing and disease variation detection tools and techniques”. 9th IEEE/ACS International Conference on Computer Systems and Applications (AICCSA). doi: 10.1109/AICCSA.2011.6126607</p>
 						<p>*Authors contributed equally to the work.<p>
 						</section>
 				</div>
