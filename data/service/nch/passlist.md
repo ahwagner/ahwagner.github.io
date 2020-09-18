@@ -8,6 +8,7 @@ colleagues:
    - Aimee Jalkanen
    - Peter White
 url: https://github.com/GenomicMedLab/passlist
+start_date: 2020-09-03
 ---
 
 This project identified lists of genes and hotspots that flags variants for review
