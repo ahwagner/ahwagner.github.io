@@ -1,9 +1,8 @@
 ---
 colleagues:
-   - Subha Madhavan
-   - Shashikant Kulkarni
-   - Gordana Raca
-start_date: 2021-02-16
+  - Subha Madhavan
+  - Shashikant Kulkarni
+start_date: 2020-10-05
 ---
 
 I serve as a member of the ClinGen Somatic Cancer Variant Interpretation

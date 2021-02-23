@@ -6,7 +6,7 @@ colleagues:
    - Jeremy Warner
    - Xuan Shirley Li
 url: https://cancervariants.org/leadership/
-start_date: 2021-02-16
+start_date: 2018-09-01
 ---
 
 As Director of the Variant Interpretation for Cancer Consortium (VICC), my
